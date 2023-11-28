@@ -16,7 +16,7 @@
   }
 }
 
-body {
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -24,4 +24,16 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+
+body{
+  background-color: rgba(249, 253, 253, 0.716);
 }
+
+.degree{
+  /* background: linear-gradient(171deg, white 40%, black 40%, black 60%, white 60%,); */
+     /* background: linear-gradient(175deg, red 20%,green 20%,red 20%,orange 20%, blue 20%); */
+     /* background: linear-gradient(175deg, white 10% 0%, black 10% 25%, black  10% 50%, black 10% 75%,  white 10% 10%); */
+       background: linear-gradient(175deg, white 10% 5%,  black 10% 93%,  white 5% 5%);
+
+    }
